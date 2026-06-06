@@ -65,9 +65,6 @@ export default function BooksClient({ authors, availableGenres }: any) {
           <h1 className="text-4xl md:text-5xl font-bold tracking-tighter text-white mb-4">Explorador de Libros</h1>
           <p className="text-zinc-400 max-w-lg text-sm md:text-base">Interfaz de consulta avanzada. Filtra, ordena y gestiona el conjunto de datos literarios.</p>
         </div>
-        <div className="flex items-center gap-2 text-zinc-400 font-mono text-xs mt-4 md:mt-0">
-          <Terminal className="w-4 h-4" /> <span>~/registro/libros</span>
-        </div>
       </div>
 
       <div className="bg-black border border-white/10 p-6 rounded-xl space-y-4">

@@ -70,10 +70,7 @@ export default function DashboardClient({ initialAuthors, stats }: any) {
       </div>
 
       {/* Toolbar */}
-      <div className="flex justify-between items-center">
-        <div className="flex items-center gap-2 text-zinc-400 font-mono text-xs">
-          <Terminal className="w-4 h-4" /> <span>~/registro/autores</span>
-        </div>
+      <div className="flex justify-end items-center">
         <button onClick={() => { setEditingAuthor(null); setFormData({ name: "", email: "", bio: "", nationality: "", birthYear: "" }); setIsModalOpen(true); }} className="bg-white text-black hover:bg-zinc-200 px-4 py-2 rounded-md text-sm font-medium transition-colors flex items-center gap-2">
           <Plus className="w-4 h-4" /> Nuevo Autor
         </button>
